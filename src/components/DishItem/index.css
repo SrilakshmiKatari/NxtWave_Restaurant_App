@@ -1,22 +1,12 @@
 .dish-item-container {
   border: 1px solid gray;
   border-radius: 12px;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 16px;
-  margin-bottom: 15px;
-}
-
-.card-item-details {
-  display: flex;
-  flex-direction: row;
 }
 
 .veg-border {
   border: 1px solid #00923f;
   align-self: flex-start;
-  width: fit-content;
 }
 
 .non-veg-border {
@@ -37,12 +27,10 @@
 
 .dish-details-container {
   flex-grow: 1;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .dish-name {
-  font-weight: 400;
+  font-weight: 600;
   font-family: 'Roboto';
   font-size: 25px;
   margin-top: 0;
@@ -68,14 +56,10 @@
 
 .controller-container {
   width: fit-content;
-  min-width: 130px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+  min-width: 150px;
   justify-content: space-between;
   padding: 10px;
   border-radius: 50px;
-  background-color: #04680c;
 }
 
 .button {
@@ -84,14 +68,14 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: white;
+  color: #fff;
   font-weight: 600;
   font-size: 18px;
 }
 
 .quantity {
   margin: 0 10px;
-  color: white;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -115,7 +99,6 @@
   font-family: 'Roboto';
   font-size: 18px;
   align-self: center;
-  color: rgb(231, 170, 58);
 }
 
 .dish-image {
@@ -123,16 +106,4 @@
   height: 150px;
   border-radius: 12px;
   align-self: flex-start;
-}
-
-@media screen and (max-width: 767px) {
-  .dish-image {
-    width: 90px;
-    height: 90px;
-  }
-
-  .dish-item-container {
-    display: flex;
-    flex-direction: column;
-  }
 }

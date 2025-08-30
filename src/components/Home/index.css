@@ -7,7 +7,6 @@
 .tab-container {
   overflow-y: auto;
   box-shadow: 0px 10px 10px -15px #111;
-  
 }
 
 .each-tab-item {
@@ -25,11 +24,6 @@
   font-weight: 600;
 }
 
-.button-container {
-  display: flex;
-  flex-direction: row;
-}
-
 .tab-category-button {
   color: inherit;
   font-family: 'Roboto';
@@ -38,6 +32,7 @@
   padding: 0;
   border: none;
   background-color: transparent;
+  color: black;
 }
 
 .dishes-list-container {
